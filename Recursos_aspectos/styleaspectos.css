@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    background-color: #5ECE79;
+    color: white;
+    font-weight: bold;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .nav-logo{
+    display: flex;
+    align-items: center;
+}
+
+nav img{
+    width: 100px;
+    align-items: center;
+}
+
+nav .nav-items ul{
+    display: flex;
+    gap: 20px;
+    text-decoration: none;
+    list-style-type: none;
+    padding-right: 15px;
+}
+
+nav .nav-items ul li a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
